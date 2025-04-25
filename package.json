@@ -7,9 +7,11 @@
     "client": "npm --workspace client run dev",
     "client:install": "docker exec -it app_client npm install",
     "client:uninstall": "docker exec -it app_client npm uninstall",
+    "client:update": "docker exec -it app_client npm update",
     "server": "npm --workspace server run dev",
     "server:install": "docker exec -it app_server npm install",
     "server:uninstall": "docker exec -it app_server npm uninstall",
+    "server:update": "docker exec -it app_server npm update",
     "app": "npm run client & npm run server"
   },
   "keywords": [],
