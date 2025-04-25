@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 
+import "./utils/trpc";
+
 function App() {
   const [data, setData] = useState<unknown>(null);
   useEffect(() => {
