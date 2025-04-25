@@ -1,0 +1,19 @@
+{
+  "name": "test-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "client": "npm --workspace client run dev",
+    "server": "npm --workspace server run dev",
+    "app": "npm run client & npm run server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "workspaces": [
+    "packages/client",
+    "packages/server"
+  ]
+}
