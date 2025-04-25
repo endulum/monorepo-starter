@@ -5,11 +5,11 @@
   "private": true,
   "scripts": {
     "client": "npm --workspace client run dev",
-    "client:install": "docker compose run client npm install",
-    "client:uninstall": "docker compose run client npm uninstall",
+    "client:install": "docker exec -it app_client npm install",
+    "client:uninstall": "docker exec -it app_client npm uninstall",
     "server": "npm --workspace server run dev",
-    "server:install": "docker compose run server npm install",
-    "server:uninstall": "docker compose run server npm uninstall",
+    "server:install": "docker exec -it app_server npm install",
+    "server:uninstall": "docker exec -it app_server npm uninstall",
     "app": "npm run client & npm run server"
   },
   "keywords": [],
