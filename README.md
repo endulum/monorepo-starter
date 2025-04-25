@@ -5,7 +5,6 @@
 - All TypeScript
 - All Dockerized
 
-## Todo
+## Sources
 
-- [ ] TypeScript-ify the backend
-- [ ] Get ESLint working front-to-back
+[Creating a simple full-stack application with monorepo using pnpm, React, Express, and Docker](https://blog.stackademic.com/creating-a-simple-full-stack-application-with-monorepo-using-pnpm-react-express-and-docker-6346c08f8188?gi=85cf74d2b335)
