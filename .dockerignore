@@ -1,0 +1,16 @@
+**/.git
+**/node_modules
+**/.vscode
+**/__tests__
+/coverage
+
+**/.gitignore
+**/docker-compose*.yml
+**/Dockerfile
+**/npm-debug.log
+**/.prettier*
+**/.eslint*
+/README.md
+/TODO.md
+/CHANGELOG.md
+/.editorconfig

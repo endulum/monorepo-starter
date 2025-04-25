@@ -11,7 +11,7 @@ function App() {
     fetchData();
   }, []);
 
-  return <>{data && <pre>{JSON.stringify(data, null, 2)}</pre>}</>;
+  return <>{data && <pre>{JSON.stringify(data, null, 3)}</pre>}</>;
 }
 
 export default App;

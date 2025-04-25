@@ -1,8 +1,8 @@
-const express = require("express");
-const app = express();
-const PORT = 3000;
+import express from "express";
 
-app.get("/", (req, res) => {
+const app = express();
+
+app.get("/", (_req, res) => {
   res.json([
     { name: "John", age: 25 },
     { name: "Jane", age: 30 },
@@ -10,8 +10,7 @@ app.get("/", (req, res) => {
   ]);
 });
 
-console.log("oo");
-
+const PORT = 3000;
 app.listen(PORT, () => {
-  console.log(`I am doing great and serving at ${PORT}`);
+  console.warn(`⚡️ server starting at http://localhost:${PORT}`);
 });
